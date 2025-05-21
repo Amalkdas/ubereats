@@ -20,8 +20,7 @@
     left: 13em;
     top: 1em;
     height: 2em;
-    z-index: 2;
-    background-color: rgb(105, 212, 0.8); 
+    z-index: 2; 
     color: white;
     display: flex;
     align-items: center;
