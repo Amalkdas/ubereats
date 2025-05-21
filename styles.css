@@ -1,0 +1,546 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lexend Deca", sans-serif;
+   scroll-behavior: smooth;
+
+}
+.con1{
+    width: 100%;
+    height: 600px;
+    margin: 0;
+    padding: 0;
+   
+  
+}
+.bs {
+    position: relative;
+   
+}
+body{
+    height: 400vh;
+}
+#burg{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    
+}
+ #uber{
+   
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: white;
+    font-size: 60px;
+    border: 5px solid white;
+    padding: 1.0em;
+    position: absolute;
+    font-weight: bold;
+    z-index: 1;
+    transform: translateX(-50%);
+  top: 180px;
+  left: 900px;
+
+}
+#uber:hover{
+    transition: 0.2s ease-in;
+    transform: scale(1.1);
+}
+span{
+    color: rgb(33, 238, 33);
+}
+header{
+    font-size: 20px;
+    position: absolute;
+    
+    padding: 2em;
+    z-index: 2;
+ 
+    display: flex;
+    justify-content: space-between;
+   
+}
+header > a{
+    text-decoration: none;
+    color: white;
+  text-shadow: 2px black;
+    margin-right: 4.8em;
+    font-weight:bold;
+   
+}
+a:hover{
+    transform: scale(1.01);
+    padding: 0.2em;
+    transition: 0.3s;
+    font-size: 20px;
+    color: rgb(45, 207, 45);
+    
+}
+.logo i{
+    color: white;
+    padding-left: 1em;
+}
+i:hover{
+    transform:scale(1.01) ;
+    transition: 0.3s;
+   
+}
+#his{
+    height: 450px;
+    background-color:white;
+    width: 100%;
+    position: sticky;
+}
+#his:hover{
+    transition: 0.3s;
+    transform: scale(1.01);
+}
+#his > h1 {
+    color: rgb(52, 197, 52);
+    padding-top: 2em;
+    padding-left: 2em;
+    font-size: 3em;
+}
+#his > h3{
+   text-align: justify;
+    padding-left: 5em;
+    padding-top: 2em;
+}
+#menu{
+    height: 45em;
+    width: 100%;
+    margin-bottom: 2em;
+}
+#menu2{    
+    width: 100%;
+    height: 45em;
+    margin-bottom: 2em;
+   
+
+}
+#menu3{
+    width: 100%;
+    height: 45em;
+    margin-bottom: 2em;
+
+}
+
+
+.box1,.box2,.box3{
+   
+    width: 300px;
+    position: relative;
+    height: 5em;
+   
+    border-radius: 10px;
+   
+    box-shadow: 2px 1px 2px black;
+    left: 800px;
+    top: -250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 1em;
+    margin-top: 1em;
+    background-color: white;
+}
+.box1{
+    z-index: 1;
+}
+
+.box2{
+    rotate: 20deg;
+    left: 1000px;
+    width: 200px;
+    height: 5em;
+    top: -260px;
+    position: relative;
+    z-index: 2;
+   
+}
+.box3{
+    top: -285px;
+    z-index: 3;
+}
+    
+#ic{
+    position: relative;
+    right: 1em;
+    font-size: 2em;
+color: rgb(60, 202, 60);
+}
+#breakfast{
+    width: 100%;
+    height: 100%;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+#breakfast img{
+    object-fit: cover;
+}
+#lunch{
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    width: 100%;}
+#lunch img{
+    background-repeat: no-repeat;
+}
+#res{
+    width: 100%;
+    height: 700px;
+    position: relative;
+    margin-top: 3em;
+}
+.ress{
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    background-size: cover;
+}
+.br3{ 
+    padding-top :0.5em;
+    color: rgb(9, 7, 7);
+
+}
+#Dinner{
+    display: flex;
+    height: 700px;
+    justify-content: center;
+    background-size: cover;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.bs img{
+    object-fit: cover;
+}
+.bs h1{
+    font-size: 4em;
+}
+.bs{
+    width: 22em;
+    height: 20em;
+margin: 1em;
+border-radius: 10px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    border: 1.5px solid rgb(171, 159, 159);
+}
+.bs:hover{
+    transform: scale(1.01);
+    transition: 0.3s;
+    box-shadow: 2px 2px 2px 2px gray;
+}
+#menu h1{
+    padding-top: 0.5em;
+    
+    
+}
+#menu2 h1{
+    padding-top :0.5em; 
+}
+.br{
+    color: black;
+    font-size: 4.5em;
+   
+}
+.br1{
+    color: black;
+    padding-top: 0.5em; 
+    background-size: cover;
+}
+.br2{
+    color: rgb(14, 6, 6);
+    padding-top :0.5em;
+
+}
+
+#bsimg{
+    width:100%;
+    height: 12em;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    object-fit: cover;
+}
+.bs h1{
+    text-align: center;
+    color: green;
+    font-size: 20px;
+}
+#con{
+    color: black;
+    font-size: 15px;
+}
+
+#add{
+    width: 70px;
+    height: 35px;
+    color:rgb(11, 11, 11);
+    border-radius: 5px;
+    background-color:white; 
+    font-weight: bolder;
+    cursor: pointer;
+    margin-bottom: 1em;
+}
+#add:hover{
+    background-color: rgb(89, 210, 89);
+    transition: 0.3s;
+    color: white;
+}
+#dinner .bs img{
+    margin-bottom: 1em;
+}
+
+
+#res{
+    width: 100%;
+    height: 800px;
+
+
+}
+.ress{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    height: 45em;
+    padding: 2em;
+}
+.resbox{
+    width: 350px;
+    height: 300px;
+    background-color:white;
+    margin-right: 40px;
+    margin-top: 20px;
+    justify-content: center;
+}
+.resbox:hover{
+    box-shadow: 1px 1px 1px 1px black;
+}
+.resbox img{
+    width: 350px;
+    height:200px ;
+}
+.resbox h1{
+    color: rgb(33, 238, 33);
+    padding-top: 0.2em;
+}
+.resbox i{
+    color: green;
+}
+
+#contact{
+    width: 100%;
+    height: 50em;
+    background-color:black;
+    margin-top: 2em;
+    background-repeat: no-repeat;
+    padding-top: 1em;
+
+} 
+.br4{ 
+    padding-top: 1em;
+    background-color: rgb(35, 196, 35);
+    color: white;
+    width: 100%;
+
+}
+#hot{
+    text-decoration: none;
+}
+#hot h1{
+    pointer-events: none;
+}
+#conicon{
+    color: white;
+    font-size: 1.5em;
+    margin-top: 0.5em;
+}
+#lab{
+    font-size: 1.5em;
+    color: white;
+    font-weight: bolder;
+}
+.conbox{
+    width: 35em;
+    height: 35em;
+    background-color: white;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    gap: 2em;
+    padding-top: 4em;
+   
+   
+}
+label{
+    font-weight: 550;
+}
+#left{
+    margin-left: -25px;
+}
+input{
+    width: 30em;
+    height:50px ;
+    padding-left: 1em;
+    border-radius: 5px;
+}
+input::placeholder{
+    color:black;
+    font-weight: 600;
+    
+}
+textarea::placeholder{
+    color:black;
+    padding: 1em;
+}
+#com{
+    background-color:black;
+    width: 100px;
+    height: 2.5em;
+    color: white;
+    border-radius: 5px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: -1em;
+}
+#f{
+    color: white;
+    font-size: 2em;
+}
+#i{
+    color: white;
+    font-size: 2em;
+}
+#t{
+    color: white;
+    font-size: 2em;
+}
+#contact img{
+    object-fit: cover;
+}
+#account{
+    width: 100%;
+    height: 1000px;
+    background-color: rgb(193, 42, 42);
+    background-image: url(https://cdn.pixabay.com/photo/2023/03/08/19/37/background-7838559_1280.jpg);
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+ 
+}
+.acbox{
+ 
+    width: 600px;
+    background-color: white;
+    height: 840px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+   
+}
+#acbox{
+    margin-bottom: 2em;
+    width: 350px;
+    
+
+}
+#acbox::placeholder{
+    color: black;
+
+}
+#account button{
+    width: 80px;
+    height: 2.5em;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+#aboutus{
+    width: 100%;
+    height: 600px;
+    background-color: white;
+}
+#aboutus{
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+}
+.footer{
+    width: 100%;
+    height: 780px;
+    background-color: rgba(73, 68, 68, 0.867)
+}
+.fcon{
+    width: 100%;
+   
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+}
+.fcons{height: 400px; 
+    width: 25%; 
+    display: flex; 
+    flex-direction: column; 
+    padding-left: 5em; 
+    padding-top: 5em;
+    color: white;  
+  
+}
+.fcons h3{
+    padding-bottom: 0.5em;
+}
+.socicon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1em;
+    font-size: 1.5em;
+    color: black;
+    gap: 10px
+}
+.plays{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.round{
+    border-radius: 50%;
+    width: 40px;
+    cursor: pointer;
+    height: 40px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+    background-color: white;
+}
+.plays img{
+    cursor: pointer;
+}
+
+
+
+   
+
+
+
