@@ -54,7 +54,8 @@ header{
     font-size: 20px;
     position: absolute;
     
-    padding: 2em;
+    padding-left: 2.2em;
+    padding-top: 1.8em;
     z-index: 2;
  
     display: flex;
@@ -456,6 +457,10 @@ textarea::placeholder{
     justify-content: center;
 
    
+}
+.acbox p{
+    margin-top: 1em;
+    margin-bottom: 1em;
 }
 #acbox{
     margin-bottom: 2em;
